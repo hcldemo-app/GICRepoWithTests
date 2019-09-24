@@ -23,6 +23,7 @@ namespace Tests
 
             Assert.That(actResult.ViewName, Is.EqualTo("GetProducts"));
 
+
         }
 
         [Test]

@@ -22,6 +22,7 @@ namespace Tests
             ViewResult actResult = obj.GetProducts() as ViewResult;
 
             Assert.That(actResult.ViewName, Is.EqualTo("GetProducts"));
+
         }
 
         [Test]
